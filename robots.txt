@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+User-agent: *
+Disallow: /.idea/
+Disallow: /.git/
+Disallow: /assets/bootstrap/
+Disallow: /assets/maugallery.js
+Disallow: /assets/scripts.js
+Disallow: /assets/scripts-combined.min.js
+Disallow: /assets/style.css
+Disallow: /assets/style.min.css
