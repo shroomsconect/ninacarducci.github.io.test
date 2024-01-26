@@ -285,6 +285,9 @@ input[type="submit"] {
 		text-align: center;
 		margin-top: 1em;
 	}
+	#services .title {
+		max-width: 80%;
+	}
 	#services .container {
 		flex-direction: column;
 	}
@@ -339,6 +342,9 @@ input[type="submit"] {
 	}
 	.picture.left::before, .picture.right::before {
 		height: 150px;
+	}
+	#services .title {
+		max-width: 80%;
 	}
 	#services .container {
 		align-items: center;
