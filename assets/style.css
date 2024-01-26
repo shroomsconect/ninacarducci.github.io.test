@@ -45,6 +45,13 @@ body {
 #carouselHome img{
 	height: auto;
 }
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+	width: 5vw;
+	height: 5vw;
+	max-width: 96px;
+	max-height: 96px;
+}
 
 #about {
 	display: flex;
@@ -97,6 +104,12 @@ body {
 #gallery {
 	min-height: 100vh;
 }
+#gallery #myAwesomeLightbox {
+	align-items: center;
+}
+#gallery #myAwesomeLightbox.show {
+	display: flex !important;
+}
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -106,8 +119,9 @@ body {
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	background-color: #1C6474;
 	border-radius:0 ;
+	cursor: pointer;
 }
 .nav-pills .nav-link {
 	color: #000
